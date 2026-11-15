@@ -3,7 +3,7 @@
 使用者說出想做的事（「我想開一家手搖飲店」「做一支產品短影片」），從作者的 **97 個線上工具**＋10 個常用 AI 服務裡挑出適合的，像捷運路線一樣排好使用順序（每站一個步驟、站旁是工具卡）。等於整個工作區的入口。2026-11-15 建立（使用者從「還有那些軟體的方向」清單挑了「AI 工具選擇導航」）。畫面是**捷運路線圖風**（深藍站牌標題、12 條彩色路線＝12 個分類、圓圈車站）。
 
 - 純靜態：`index.html`（CSS）＋`data.js`（`window.NAV`：`CATS` 12 類、`TOOLS` 97 個、`GEN` 10 個一般 AI 服務、`GOALS` 35 種情境、配對引擎；node 可 require）＋`app.js`＋`manual.html`＋PWA。無序號。
-- 本機 port **8887**（`.claude/launch.json` 的 `ai-tool-navigator`）。visitor-badge `m255525.aitoolnavigator`。**2026-11-15 已上線** <https://m255525.github.io/ai-tool-navigator/>（repo 由使用者自己 `gh repo create`；push 時 Pages 還沒開，第一次部署失敗「Get Pages site failed」，開 Pages 後 `gh workflow run pages.yml` 重跑成功）。程式牆在 `REPO_META`，github-dashboard 已補。
+- 本機 port **8887**（`.claude/launch.json` 的 `ai-tool-navigator`）。visitor-badge `m255525.aitoolnavigator`。**2026-11-15 已上線** <https://m255525.github.io/ai-tool-navigator/>（repo 由使用者自己 `gh repo create`；push 時 Pages 還沒開，第一次部署失敗「Get Pages site failed」，開 Pages 後 `gh workflow run pages.yml` 重跑成功）。程式牆在 `REPO_META`，github-dashboard 已補。已放進創業島與創作者小鎮（出生點／梅林、雅典娜正南的燈塔，`FREE`＋`lighthouse`）。
 
 ## 資料（重要）
 - **`TOOLS` 來源**：2026-11-15 用 `gh api users/M255525/repos` 列出公開 repo，逐一確認 GitHub Pages 網址回 200（97 個，全部是 `https://m255525.github.io/<repo>/`）。名稱沿用 github-dashboard 的 `REPO_META`，🔑 需序號沿用其 `LICENSED_REPOS`（另加 `phoenix-loan-generator`：線上部署的是教學版，要序號）。說明文字自寫。
