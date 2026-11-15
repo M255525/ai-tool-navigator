@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI 工具導航・操作手冊</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1d2b3a;--sub:#5b6878;--bg:#f4f6f8;--card:#fff;--line:#d9dfe6;--accent:#0f62fe}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans TC','Microsoft JhengHei',sans-serif;font-weight:500;font-size:17px;line-height:1.75}
+main{max-width:820px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:28px;margin:0 0 6px;background:#1d2b3a;color:#fff;border-radius:10px;padding:10px 16px}
+h2{font-size:21px;margin:4px 0 8px;display:flex;align-items:center;gap:8px}
+h2::before{content:'';width:28px;height:8px;border-radius:8px;background:var(--accent)}
+section{background:var(--card);border-radius:10px;box-shadow:0 1px 0 var(--line),0 6px 18px rgba(20,30,45,.07);padding:12px 18px 14px;margin-top:14px}
+a{color:var(--accent);font-weight:700}
+li{margin:5px 0}
+ol,ul{padding-left:1.3em}
+@media print{body{background:#fff}section{box-shadow:0 0 0 1px #888;break-inside:avoid}}
+</style>
+</head>
+<body>
+<main>
+<h1>AI 工具導航・操作手冊</h1>
+<p><a href="index.html">← 回到 AI 工具導航</a></p>
+
+<section>
+<h2>這是什麼</h2>
+<p>工具越來越多，常常不知道「這件事該用哪個」。AI 工具導航讓你<b>用一句話說出想做的事</b>，從作者的 97 個線上工具和 10 個常用 AI 服務裡，挑出適合的，像捷運路線一樣<b>排好先後順序</b>：每一站是一個步驟，站旁就是要用的工具，點一下就開。</p>
+</section>
+
+<section>
+<h2>三種用法</h2>
+<ol>
+<li><b>🔍 幫我找（免金鑰）</b>：用規則比對你打的字和 35 種常見情境（開店、申請貸款、做短影片、寫貼文、上課互動、幫長輩…）。<b>不會把你打的字傳出去</b>。結果會列出「最接近的情境」，點一下可以換路線；下面還有「也可能用得到」的工具。</li>
+<li><b>✨ AI 幫我排（自備金鑰）</b>：在 ⚙ 常用設定填入 Gemini、OpenAI、Claude 等服務的金鑰後，AI 會讀整份工具清單，依你的情況排出 2～6 步的路線。AI 只能挑清單裡有的工具，不會憑空發明。</li>
+<li><b>📋 複製提示詞（免金鑰）</b>：把你的需求＋整份工具清單複製下來，貼到 ChatGPT、Claude 或 Gemini 的對話框，讓它幫你排。</li>
+</ol>
+</section>
+
+<section>
+<h2>看懂路線圖</h2>
+<ul>
+<li>每個圓圈是一站（一個步驟），依序做下去。</li>
+<li>左邊有彩色邊條的卡片是作者的線上工具，顏色代表分類；<b>🔑 需序號</b>的工具要向授課講師索取課程序號。</li>
+<li>虛線框的 🤖 是一般 AI 服務（ChatGPT、NotebookLM、Canva…），會開官方網站。</li>
+<li>有些情境附「可以直接拿去問一般 AI 的提示詞」，把【】換成自己的情況就能用。</li>
+<li>「🔗 分享這條路線」會產生帶著你的問題的網址，傳給同學打開就是同一條路線。</li>
+</ul>
+</section>
+
+<section>
+<h2>全部路線圖</h2>
+<ul>
+<li><b>我想…</b>：35 種情境一覽，點一下直接看建議路線。</li>
+<li><b>全部工具</b>：97 個工具依 12 條「路線」（分類）排列，可以用關鍵字或分類篩選。</li>
+<li><b>常用 AI 服務</b>：10 個外部 AI 服務擅長做什麼。功能、免費額度與付費方案常變動，以官方網站為準。</li>
+</ul>
+</section>
+
+<section>
+<h2>⚙ 常用設定</h2>
+<ul>
+<li>顯示：標準字／大字（投影用）、淺色／深色／跟隨系統。</li>
+<li>🤖 AI 設定：服務商、金鑰、模型（也可以自己輸入模型名稱或 OpenAI 相容端點，例如 Ollama）。金鑰只存在這台瀏覽器。</li>
+<li>🧹 清除：清掉這台電腦上的金鑰與設定。</li>
+</ul>
+</section>
+
+<section>
+<h2>⚠ 使用警語</h2>
+<ul>
+<li>推薦路線是參考，不一定是唯一或最好的做法；請依自己的情況調整。</li>
+<li>工具說明依 2026-11 的現況整理；工具日後可能更新、改名或需要序號。</li>
+<li>一般 AI 服務的功能與方案以官方為準；不要在任何 AI 服務輸入個資或機密資料。</li>
+<li>「✨ AI 幫我排」會把你的那句話與工具清單送到你設定的 AI 服務；用「🔍 幫我找」則完全不會送出。</li>
+<li>貸款、勞健保、稅務等規定以主管機關最新公告為準。</li>
+</ul>
+</section>
+
+<section id="creator">
+<h2>👤 關於創作者</h2>
+{{CREATOR}}
+</section>
+<p style="text-align:center"><a href="index.html">← 回到 AI 工具導航</a></p>
+</main>
+</body>
+</html>
