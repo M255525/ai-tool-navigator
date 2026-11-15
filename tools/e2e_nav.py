@@ -55,7 +55,7 @@ with sync_playwright() as p:
     t.screenshot(path=os.path.join(OUT, '03_ai.png'), full_page=True)
     # 瀏覽
     t.click('[data-tab=tools]'); t.wait_for_timeout(200)
-    check(t.locator('#toolLines .tc').count() == 97, '全部工具 97 個')
+    n_all = t.evaluate('_nav.N.TOOLS.length'); check(t.locator('#toolLines .tc').count() == n_all, '全部工具 %d 個' % n_all)
     t.fill('#fIn', '貸款'); t.wait_for_timeout(200)
     n = t.locator('#toolLines .tc').count(); check(0 < n < 10, '篩選「貸款」%d 個' % n)
     t.click('[data-tab=goals]'); t.click('.goals [data-goal=teach]'); t.wait_for_timeout(300)
