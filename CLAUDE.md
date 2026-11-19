@@ -25,3 +25,6 @@
 
 ## 標準配備
 跑馬燈（工作區公告 GAS，滑鼠移入暫停）、⚙ 常用設定（收合式：顯示、AI 設定、清除、關於本工具）、首訪警語、`manual.html#creator`（改 `tools/manual_body.html` 後跑 `python tools/build_manual.py`）、PWA（`tools/make_icons.py`；改版升 `service-worker.js` 的 `CACHE_NAME`）、訪客計數器。
+
+## MCP 同步
+`data.js` 也被 `小工具/rules-engine-mcp/` 複製去當 MCP 工具引擎。改了 `data.js` 之後，到該資料夾跑 `node tools/sync_engines.mjs --write` 再 `npm test`。
