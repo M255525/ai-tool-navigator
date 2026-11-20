@@ -31,7 +31,7 @@ const cases = [
   ['週末想帶家人去走步道', 'trip', 'taiwan-trail-map'], ['請一個員工一個月要花多少錢', 'payroll', 'employer-payroll-cost-calculator'], ['菜單怎麼定價才有賺', 'cost', 'restaurant-menu-mix-calculator'],
   ['幫我畫 LINE 貼圖', 'sticker', 'line-sticker-studio'], ['我想做一個自己的 GPTs', 'skill', 'skill-prompt-studio'], ['想知道對手賣多少錢', 'competitor', 'ecommerce-competitor-analyzer'],
   ['做品牌的音效', 'music', 'sonic-logo-studio'], ['今天晚餐煮什麼', 'food', 'fridge-recipe-notes'], ['學生上台報告要互相評分', 'teach', 'peer-review-board'],
-  ['ChatGPT 怎麼問比較好', 'prompt', 'prompt-console'], ['我想帶阿嬤做運動', null, 'seated-exercise-cam'], ['坐太久想動一動', 'exercise', 'seated-exercise-cam'], ['媽祖遶境是哪幾天', null, 'taiwan-temple-festival-calendar'], ['我想幫產品拍漫畫廣告', 'comic', 'comic-prompt-studio']
+  ['ChatGPT 怎麼問比較好', 'prompt', 'prompt-console'], ['我想帶阿嬤做運動', null, 'seated-exercise-cam'], ['坐太久想動一動', 'exercise', 'seated-exercise-cam'], ['媽祖遶境是哪幾天', null, 'taiwan-temple-festival-calendar'], ['我想幫產品拍漫畫廣告', 'comic', 'comic-prompt-studio'], ['我想做會員集點卡，點數要送多少', 'customer', 'member-points-designer']
 ];
 cases.forEach(([q, g, t]) => {
   const r = N.match(q);
