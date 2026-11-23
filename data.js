@@ -75,7 +75,7 @@ var T = [
   ['text-organizer-studio', '文字整理編輯器', 'social', '把雜亂的草稿、逐字稿整理成有標題的文件，下載 Word', '整理 草稿 逐字稿 會議記錄 word 文件'],
   ['sonic-logo-studio', '品牌聲音 Logo 產生器', 'social', '依品牌個性產生 3～5 個音的招牌聲音，匯出 WAV／MIDI', '聲音logo 品牌音 jingle 招牌音 音效'],
   ['line-sticker-studio', 'LINE 貼圖自動化助手', 'social', '主題＋角色圖產生 LINE 貼圖，自動切格去背、符合上架規格', 'line 貼圖 sticker 角色'],
-  ['edm-template-maker', '電子報 EDM 版型產生器', 'social', '積木組電子報，產出 Gmail、Outlook 不跑版的 HTML，寄前幫你健檢', '電子報 edm email 寄信 會員信 招生信 newsletter mailchimp 促銷信 行銷信', 0],
+  ['edm-template-maker', '電子報 EDM 版型產生器', 'social', '積木組電子報，產出 Gmail、Outlook 不跑版的 HTML，寄前幫你健檢', '電子報 edm email 寄信 會員信 招生信 newsletter mailchimp 促銷信 行銷信', 1],
   // 提示詞與 AI 技能
   ['prompt-console', '提示詞控制台（CRISPE）', 'prompt', '用 CRISPE 框架一格一格組出好提示詞', '提示詞 prompt crispe 框架'],
   ['ai-prompt-generator', 'AI 提示詞產生器', 'prompt', 'TAG、APE、CO-STAR 等框架的提示詞產生器', '提示詞 prompt co-star 框架', 1],
