@@ -56,6 +56,7 @@ var T = [
   ['innovation-matrix-studio', '創意打版台', 'idea', '用矩陣交叉組合產生創新點子', '創新 矩陣 組合 點子', 1],
   ['mentors-panel', 'AI 人物顧問團', 'idea', '請巴菲特、賈伯斯等人物視角的 AI 顧問給你不同觀點', '顧問 建議 人物 觀點 請教'],
   ['brand-name-checker', '品牌命名與商標初篩', 'idea', '產生店名品牌名，依商標法初篩撞名與識別性，整理查證清單', '取名 命名 店名 品牌名 商標 註冊 撞名 智慧局 品牌 logo名稱'],
+  ['ogsm-strategy-planner', 'OGSM 策略規劃表', 'idea', '把年度策略寫成一頁 OGSM，檢查邏輯、展開到部門、每月追蹤', 'ogsm 年度計畫 年度策略 目標 策略 kpi okr 部門目標 策略展開 追蹤 方針'],
   // 跨境電商
   ['product-keyword-cloud', '跨境電商關鍵字文字雲', 'ecom', '整理商品關鍵字並做成文字雲，找出主要搜尋詞', '關鍵字 文字雲 seo 搜尋詞', 1],
   ['product-title-generator', '跨境商品標題產生器', 'ecom', '用規格、功能、形容詞與核心關鍵詞組出商品標題', '商品標題 標題 上架 listing', 1],
@@ -180,7 +181,7 @@ var GOALS = [
    steps:[['先大量產生點子', ['business-idea-generator', 'mandala-thinking'], ['chatgpt']], ['換角度改良', ['scamper-thinking-generator', 'innovation-matrix-studio']], ['多方檢查', ['six-thinking-hats-generator', 'mentors-panel']]],
    p:'我對【領域／興趣】有興趣，手上有【資源或技能】。請用曼陀羅九宮格幫我發想 8 個可以做的方向，每個方向再寫一句可以怎麼賺錢。'},
   {id:'model', ic:'🧭', t:'整理商業模式與策略', kw:'商業模式 策略 定位 bmc 九宮格 獲利 swot 五力 競爭',
-   steps:[['畫出商業模式圖', ['business-model-canvas-generator']], ['找適合的商業模式組合', ['business-model-pattern-studio']], ['想清楚市場、產品、做法', ['where-what-how-strategy-studio']], ['練習 SWOT 分析', ['swot-game']], ['請不同人物給意見', ['mentors-panel']]]},
+   steps:[['畫出商業模式圖', ['business-model-canvas-generator']], ['找適合的商業模式組合', ['business-model-pattern-studio']], ['想清楚市場、產品、做法', ['where-what-how-strategy-studio']], ['練習 SWOT 分析', ['swot-game']], ['把策略寫成一頁 OGSM 並追蹤', ['ogsm-strategy-planner']], ['請不同人物給意見', ['mentors-panel']]]},
   {id:'newprod', ic:'🧪', t:'開發新產品', kw:'新產品 新品 產品開發 改良 痛點 評論 概念 定價 競品',
    steps:[['從評論與客戶回饋找痛點', ['new-product-dev-system']], ['五層次、定價與競品', ['new-product-strategy-studio', 'ecommerce-competitor-analyzer']], ['用 SCAMPER 改良', ['scamper-thinking-generator']], ['幫新品取名，先篩商標', ['brand-name-checker']]]},
   {id:'ecom', ic:'📦', t:'跨境電商上架（Amazon）', kw:'跨境 電商 amazon 亞馬遜 上架 listing 標題 五點 關鍵字 fba 賣到國外 ppc',
