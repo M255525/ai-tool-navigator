@@ -132,7 +132,7 @@ var T = [
   ['startup-island', '創業島', 'map', '把創業相關的工具放進一座島，照創業順序逛', '創業工具 地圖 入口'],
   ['creator-town', '創作者小鎮', 'map', '把內容創作工具放進一座港邊小鎮，照創作順序逛', '內容創作 工具 地圖 入口'],
   // 遊戲與體感
-  ['fruit-ninja-cam', '體感切水果', 'game', '對著攝影機揮手切水果', '體感 攝影機 遊戲 運動'],
+  ['slice-fruit-cam', '體感切水果', 'game', '對著攝影機揮手切水果', '體感 攝影機 遊戲 運動'],
   ['ball-throw-cam', '體感丟球大作戰', 'game', '對著攝影機甩手丟球', '體感 丟球 遊戲'],
   ['whack-a-mole-cam', '體感打地鼠', 'game', '對著攝影機往下敲打地鼠', '體感 打地鼠 遊戲'],
   ['jetski-cam', '體感水上摩托車', 'game', '雙手當把手騎 3D 水上摩托車', '體感 賽車 遊戲'],
@@ -232,7 +232,7 @@ var GOALS = [
   {id:'senior', ic:'👵', t:'幫長輩、照顧家人', kw:'長輩 老人 爸媽 阿公 阿嬤 樂齡 銀髮 獨居 照顧 電話簿 打電話',
    steps:[['教長輩用手機與 AI', ['ai-senior-learning-coach']], ['點照片就能打給家人', ['big-dial-phonebook']], ['防詐騙', ['scam-message-checker']], ['出門坐公車', ['next-bus-helper']], ['每天報平安', ['im-fine-checkin']], ['陪長輩坐著動一動', ['seated-exercise-cam']], ['記血壓血糖', ['bp-glucose-notebook']], ['留下回憶', ['family-memoir', 'nostalgia-memory-game']]]},
   {id:'exercise', ic:'🤸', t:'動一動、做健康操', kw:'運動 健康操 做操 伸展 動一動 久坐 坐太久 活動筋骨 帶操 早操',
-   steps:[['坐在椅子上跟著做操，鏡頭幫你數', ['seated-exercise-cam']], ['想動得更起勁，玩體感遊戲', ['fruit-ninja-cam', 'whack-a-mole-cam', 'voice-control-game']]],
+   steps:[['坐在椅子上跟著做操，鏡頭幫你數', ['seated-exercise-cam']], ['想動得更起勁，玩體感遊戲', ['slice-fruit-cam', 'whack-a-mole-cam', 'voice-control-game']]],
    tip:'坐姿健康操是活動身體的小幫手，不是醫療或復健工具；有慢性病或關節問題請先問醫師。'},
   {id:'scam', ic:'🚦', t:'判斷是不是詐騙', kw:'詐騙 可疑 簡訊 假冒 165 中獎 投資群組',
    steps:[['貼上訊息看紅綠燈', ['scam-message-checker']]], tip:'有疑慮就撥 165 反詐騙專線。'},
@@ -243,7 +243,7 @@ var GOALS = [
   {id:'trip', ic:'🧳', t:'安排出遊', kw:'出遊 旅遊 爬山 露營 賞花 觀星 賞鳥 週末 去哪玩 櫻花 廟會 漁港 海鮮',
    steps:[['看季節去哪裡', ['taiwan-flower-map', 'taiwan-trail-map', 'taiwan-camping-map', 'taiwan-stargazing-map', 'taiwan-bird-atlas', 'taiwan-temple-festival-calendar']], ['漁港當季魚', ['taiwan-fish-atlas']], ['日本賞櫻', ['japan-sakura-season']]]},
   {id:'play', ic:'🎮', t:'玩遊戲、動一動', kw:'遊戲 好玩 體感 運動 動一動 派對',
-   steps:[['攝影機體感遊戲', ['fruit-ninja-cam', 'whack-a-mole-cam', 'ball-throw-cam', 'jetski-cam']], ['聲控與桌遊', ['voice-control-game', 'Rummikub']]]},
+   steps:[['攝影機體感遊戲', ['slice-fruit-cam', 'whack-a-mole-cam', 'ball-throw-cam', 'jetski-cam']], ['聲控與桌遊', ['voice-control-game', 'Rummikub']]]},
   {id:'research', ic:'🌏', t:'查資料、看國際經濟', kw:'查資料 研究 資料來源 經濟 國家 gdp 出口 趨勢',
    steps:[['看各國經濟指標', ['world-economy-globe']], ['查資料附來源', [], ['perplexity', 'gemini']]]}
 ];
