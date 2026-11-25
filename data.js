@@ -54,7 +54,7 @@ var T = [
   ['scamper-thinking-generator', 'SCAMPER 創新思考法', 'idea', '用替代、合併、調整等七個角度改良產品或服務', 'scamper 改良 創新 發想'],
   ['six-thinking-hats-generator', '六頂思考帽分析', 'idea', '從事實、情緒、風險、優點、創意、統整六個角度看一件事', '六頂思考帽 決策 討論 分析'],
   ['innovation-matrix-studio', '創意打版台', 'idea', '用矩陣交叉組合產生創新點子', '創新 矩陣 組合 點子', 1],
-  ['mentors-panel', 'AI 人物顧問團', 'idea', '請巴菲特、賈伯斯等人物視角的 AI 顧問給你不同觀點', '顧問 建議 人物 觀點 請教'],
+  ['mentors-panel', 'AI 思維顧問團', 'idea', '請 12 種思考角色的 AI 顧問給你不同觀點', '顧問 建議 角色 觀點 請教'],
   ['brand-name-checker', '品牌命名與商標初篩', 'idea', '產生店名品牌名，依商標法初篩撞名與識別性，整理查證清單', '取名 命名 店名 品牌名 商標 註冊 撞名 智慧局 品牌 logo名稱'],
   ['ogsm-strategy-planner', 'OGSM 策略規劃表', 'idea', '把年度策略寫成一頁 OGSM，檢查邏輯、展開到部門、每月追蹤', 'ogsm 年度計畫 年度策略 目標 策略 kpi okr 部門目標 策略展開 追蹤 方針'],
   // 跨境電商
@@ -137,7 +137,7 @@ var T = [
   ['whack-a-mole-cam', '體感打地鼠', 'game', '對著攝影機往下敲打地鼠', '體感 打地鼠 遊戲'],
   ['jetski-cam', '體感水上摩托車', 'game', '雙手當把手騎 3D 水上摩托車', '體感 賽車 遊戲'],
   ['voice-control-game', '聲控大冒險', 'game', '用音量、音高、拍手玩遊戲', '聲控 麥克風 遊戲 唱歌'],
-  ['Rummikub', '拉密 Rummikub', 'game', '線上拉密牌桌遊', '拉密 桌遊 牌'],
+  ['number-tile-game', '數字牌接龍', 'game', '線上數字牌組合桌遊', '數字牌 接龍 桌遊 牌'],
 ];
 var TOOLS = T.map(function(a){ return {id:a[0], n:a[1], c:a[2], d:a[3], k:a[4].split(' '), lic:!!a[5], url:BASE + a[0] + '/'}; });
 var toolById = {}; TOOLS.forEach(function(t){ toolById[t.id] = t; });
@@ -243,7 +243,7 @@ var GOALS = [
   {id:'trip', ic:'🧳', t:'安排出遊', kw:'出遊 旅遊 爬山 露營 賞花 觀星 賞鳥 週末 去哪玩 櫻花 廟會 漁港 海鮮',
    steps:[['看季節去哪裡', ['taiwan-flower-map', 'taiwan-trail-map', 'taiwan-camping-map', 'taiwan-stargazing-map', 'taiwan-bird-atlas', 'taiwan-temple-festival-calendar']], ['漁港當季魚', ['taiwan-fish-atlas']], ['日本賞櫻', ['japan-sakura-season']]]},
   {id:'play', ic:'🎮', t:'玩遊戲、動一動', kw:'遊戲 好玩 體感 運動 動一動 派對',
-   steps:[['攝影機體感遊戲', ['slice-fruit-cam', 'whack-a-mole-cam', 'ball-throw-cam', 'jetski-cam']], ['聲控與桌遊', ['voice-control-game', 'Rummikub']]]},
+   steps:[['攝影機體感遊戲', ['slice-fruit-cam', 'whack-a-mole-cam', 'ball-throw-cam', 'jetski-cam']], ['聲控與桌遊', ['voice-control-game', 'number-tile-game']]]},
   {id:'research', ic:'🌏', t:'查資料、看國際經濟', kw:'查資料 研究 資料來源 經濟 國家 gdp 出口 趨勢',
    steps:[['看各國經濟指標', ['world-economy-globe']], ['查資料附來源', [], ['perplexity', 'gemini']]]}
 ];
