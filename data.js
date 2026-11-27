@@ -104,7 +104,7 @@ var T = [
   ['printable-game-maker', '列印即玩桌遊產生器', 'class', '把課程題材變成 A4 卡牌、骰子、賓果卡等紙上遊戲', '桌遊 教具 列印 卡牌 賓果'],
   ['practice-submission-lookup', '課堂練習存摺', 'class', '學生輸入學號查自己的練習繳交紀錄', '作業 繳交 練習 學號 查詢'],
   ['exam-score-lookup', '課程成績查詢', 'class', '學生輸入學號與姓名查測驗成績', '成績 分數 考試 查詢'],
-  ['lecture-quiz-builder', '講義出題試卷工坊', 'class', '講義 PDF 出題審題、組 A/B 卷、轉 Google 表單測驗，考後做試題分析', '出題 考卷 試卷 題庫 測驗 考試 講義 期中考 期末考 結訓測驗 google表單 試題分析 鑑別度 難度 答案卡'],
+  ['lecture-quiz-builder', '講義出題試卷工坊', 'class', '講義 PDF 出題審題、組 A/B 卷、轉 Google 表單測驗，考後做試題分析', '出題 考卷 試卷 題庫 測驗 考試 講義 期中考 期末考 結訓測驗 google表單 試題分析 鑑別度 難度 答案卡', 1],
   // 樂齡與家人
   ['ai-senior-learning-coach', 'AI 樂齡學習教練', 'senior', '長輩每天一課學用手機與 AI，還有防詐騙練習', '長輩 樂齡 學手機 老人 銀髮'],
   ['scam-message-checker', '詐騙訊息紅綠燈', 'senior', '貼上可疑簡訊或 LINE 訊息，看紅黃綠燈風險，一鍵撥 165', '詐騙 簡訊 可疑 165 假冒'],
